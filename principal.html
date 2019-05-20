@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Imagenes
-        </title>
-    </head>
-    <body>
-        <img src="Imagenes/I1.jpg">
-        <button id="anterior">Anterior</button>
-        <button id="iniciar">Iniciar</button>
-        <button id="siguiente">Siguiente</button>
-    </body>
+
+<head>
+    <script src="mostrar.js"></script>
+    <meta charset="utf-8" />
+
+    <style>
+        body {
+            margin: 30px 200px;
+            align-self: center;
+        }
+
+        img {
+            width: 350px;
+            height: 225px;
+        }
+
+
+        button {
+            width: 70px;
+            height: 25px;
+            text-align: center;
+        }
+    </style>
+    <title>
+        Imagenes
+    </title>
+</head>
+
+<body>
+    <div id="imagen">
+        <h1>IMAGENES</h1>
+    </div>
+    <!--<img src="Imagenes/I1.jpg">-->
+    <button id="btn_anterior" onclick="anterior();">Anterior</button>
+    <button id="btn_inicio" onclick="inicio();">Inicio</button>
+    <button id="btn_siguiente" onclick="siguiente();">Siguiente</button>
+</body>
+
 </html>
