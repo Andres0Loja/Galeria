@@ -4,22 +4,29 @@
 <head>
     <script src="mostrar.js"></script>
     <meta charset="utf-8" />
-
     <style>
         body {
-            margin: 30px 200px;
+            margin: 50px 500px;
             align-self: center;
+            background-color: teal;
         }
 
         img {
-            width: 350px;
-            height: 225px;
+            width: 500px;
+            height: 300px;
         }
 
-
         button {
-            width: 70px;
+            width: 500px;
             height: 25px;
+            text-align: center;
+        }
+        div{
+            width: 500px;
+            height: 301px;
+            color: red;
+        }
+        h1{
             text-align: center;
         }
     </style>
@@ -28,14 +35,13 @@
     </title>
 </head>
 
-<body>
-    <div id="imagen">
+<body >
+    <div id="imagen" style="background-color: cadetblue"  >
         <h1>IMAGENES</h1>
     </div>
-    <!--<img src="Imagenes/I1.jpg">-->
-    <button id="btn_anterior" onclick="anterior();">Anterior</button>
-    <button id="btn_inicio" onclick="inicio();">Inicio</button>
-    <button id="btn_siguiente" onclick="siguiente();">Siguiente</button>
+    <button id="anterior" onclick="anterior();">Anterior</button>
+    <button id="inicio" onclick="inicio();">Inicio</button>
+    <button id="siguiente" onclick="siguiente();">Siguiente</button>
 </body>
 
 </html>
